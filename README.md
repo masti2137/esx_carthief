@@ -1,23 +1,23 @@
 # esx_carthief
-## Description
-Car thief script for ESX FiveM servers. Players can steal a car that they will have to deliver to a location in order to obtain some dirty money. Police will be alerted and updated with their location as long as they sit in the stolen vehicle.
+## Opis
+Skrypt złodzieja samochodów dla serwerów ESX FiveM. Gracze mogą ukraść samochód, który będą musieli dostarczyć w wybrane miejsce, aby zdobyć brudne pieniądze. Policja zostanie powiadomiona i poinformowana o swojej lokalizacji, o ile będą siedzieć w skradzionym pojeździe.
 
-Note: This is NOT a job. This is an illegal activity anyone can do.
-## Dependencies
-* [es_extended](https://github.com/ESX-Org/es_extended)
-* [esx_policejob](https://github.com/ESX-Org/esx_policejob)
-## Setup
-* Install into resources/[esx]
-* Add the following line to your server.cfg
+Uwaga: to nie jest job. To jest nielegalne działanie, które każdy może zrobić.
+## Wymagania
+* [es_extended]
+* [esx_policejob]
+## Instalacja
+* Zainstaluj w: resources/[esx]
+* Dodaj następującą linię do twojego server.cfg
 ```
 start esx_carthief
 ```
 
-* If you want to change the stolen vehicle location update time, you have to set `Config.BlipUpdateTime` to whatever time you would like in milliseconds in `config.lua`.
-* If you want to change the number of cops online required to steal a car, you have to set `Config.CopsRequired` to the amount of cops you would like in `config.lua`.
+*Jeśli chcesz zmienić czas aktualizacji lokalizacji skradzionego pojazdu, musisz ustawić `Config.BlipUpdateTime` na dowolny czas w milisekundach w `config.lua`.
+* Jeśli chcesz zmienić liczbę policjantów online potrzebną do kradzieży samochodu, musisz ustawić `Config.CopsRequired` na liczbę policjantów, którą chciałbyś w `config.lua`.
 ## Screenshots
-### In front of the marker
+### Przed znacznikiem
 ![screenshot](https://i.imgur.com/BoqYPHj.jpg)
 ##
-### Little explanation
+### Małe wyjaśnienie
 ![screenshot](https://i.imgur.com/maaWc4i.jpg)
